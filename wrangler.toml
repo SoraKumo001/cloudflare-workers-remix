@@ -1,0 +1,8 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "cloudflare-workers-remix"
+compatibility_date = "2024-09-25"
+main = "./functions/[[path]].ts"
+assets = { directory = "./build/client" }
+
+[observability]
+enabled = true
